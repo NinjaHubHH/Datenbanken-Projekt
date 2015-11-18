@@ -11,18 +11,19 @@ paar kurze Informationen über die Fotografin erfährt. Als Zusatz gibt es nun e
 ausfüllen, indem ich in Steckbrief-Form festgehalten bekomme wer wo gerne ein Fotoshooting beantragen würde.
 Drin stehen soll:
 
-Vorname
-Nachname (ggf.)
-Ort, PLZ
-E-Mail
-Tierart
-Vorstellung
-Sonstige Wünsche
-Foto(ggf.)
+Vorname <br>
+Nachname (ggf.) <br>
+Ort, PLZ <br>
+E-Mail <br>
+Tierart <br>
+Vorstellung <br>
+Sonstige Wünsche <br>
+Foto(ggf.) <br>
 
 
 Da ich bisher noch nie mit Datenbanken gearbeitet habe und auch recht wenig mit HTML/CSS wird 
 es hier im Repository nur langsam voran gehen aber ich werde versuchen oft neue Dateien hochzuladen und zu kommentieren.
+
 Die Bildergalerie wird vorerst eine kostenlose Slide-show sein, da mein Augenmerk eher auf der Programmierung
 der Datenbank liegt und Grundlagen des PHP's. Falls am Ende noch Zeit ist werde ich die Website immer mehr 
 editieren um eine schöne, übersichtliche Website zu haben.
