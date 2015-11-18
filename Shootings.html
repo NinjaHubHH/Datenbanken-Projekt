@@ -31,18 +31,18 @@
 			</div>
 		</div>
 			
-			<div id="content">
+			<div id="content">	<!-- Kontaktformular, placeholder bei den wichtigsten Eingaben, name entspricht der ID des Eingabefeldes was weiter gesendet wird -->
 					<h3>Kontaktformular</h3>	
-					<form action="eintragen.php" method="POST">
+					<form action="formular.php" method="POST">
 			
 						<table width="500" align="left" cellpadding="3";>
-							<tr><td width="100">Name:</td><td><input type="text" name="Name"></td></tr>
-							<tr><td width="100">Vorname:</td><td><input type="text" name="Vorname"></td></tr>
-							<tr><td width="100"> PLZ:</td><td><input type="text" name="PLZ"></td></tr>
-							<tr><td width="100"> E-Mail:</td><td><input type="text" name="E-Mail"></td></tr>
+							<tr><td width="100">Name:</td><td><input type="text" name="Name" placeholder ="Name"></td></tr>
+							<tr><td width="100">Vorname:</td><td><input type="text" name="Vorname" placeholder ="Vorname"></td></tr>
+							<tr><td width="100"> PLZ:</td><td><input type="text" name="PLZ" placeholder ="PLZ"></td></tr>
+							<tr><td width="100"> E-Mail:</td><td><input type="email" name="E-Mail" placeholder ="Email"></td></tr>
 							<tr><td width="100"> Tierart:</td><td><input type="text" name="Tierart"></td></tr>
-							<tr><td width="100"> Vorstellungen:</td><td><input type="text" name="Vorstellungen"></td></tr>
-							<tr><td width="100"> Sonstige Wünsche:</td><td><input type="text" name="Sonstige Wünsche"></td></tr>
+							<tr><td width="100"> Vorstellungen:</td><td><textarea type="text" name="Vorstellungen"rows="3" cols="22"></textarea></td></tr>
+							<tr><td width="100"> Sonstige Wünsche:</td><td><textarea type="text" name="Sonstige Wünsche"rows="2" cols="22"></textarea></td></tr>
 							<tr><td width="100"> Foto (ggf.):</td><td><input type="text" name="Foto (ggf.)"></td></tr>
 							<tr><td width="100"><input type="reset" name="reset" value="Zurücksetzen"></td><td><input type="submit" name="submit" value="Senden"></td></tr>
 						</table>	
