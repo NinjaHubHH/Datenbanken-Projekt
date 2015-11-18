@@ -1,19 +1,12 @@
 
-.body {
-	background-image: url(C:\Users\Ninja\Downloads\bootstrap-3.3.5-dist\bootstrap-3.3.5-dist\css\IMG_8292n1-1.jpg);
-}
-
-
-
+.body {}
 .container {
 	width: 960px;
-	
 }
 
 .blog-masthead {
 	background-color: #2eace9;
 	box-shadow: inset 0-2px 5 px rgba(0,0,0,.1);
-	
 }
 
 .blog-nav-item {
@@ -23,15 +16,14 @@
 	font-weight: 300;
 	color: white;
 	text-decoration: none;
-	
 }
-
 
 #blog-nav a:hover {
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
 }
+
 #blog-nav a {
     position: relative;
 	display: inline-block;
@@ -40,6 +32,7 @@
 	color: white;
 	text-decoration: none;
 }
+
 #blog-nav td {
     padding-left: 78px;
 }
@@ -55,18 +48,20 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.blog-title {
+#hintergrund {
+background-image: url('D:\Uni HAW\4. Semester\RDB\bootstrap-3.3.5-dist\Datenbanken-Projekt\IMG_6317n.jpg');
+}
 
-	font-size: 30px;
-	
+.blog-title {
+font-size: 30px;
 }
 
 .blog-main {}
 
 .blog-sidebar {
 position: left;
-
 }
+
 .blog-footer {
 	padding: 40px 0;
 	color: #999;
