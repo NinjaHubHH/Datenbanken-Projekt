@@ -1,42 +1,56 @@
 <?php
-if ($_GET['name'] != "" && $_GET['email'] != "" && $_GET['betreff'] != "" && $_GET['nachricht'] != "") {
-	mail ('support@blumenladen.de','Kontakt-Formular: ' $_GET['betreff'], 
-			'Kontakt-Formular wurde ausgefüllt von ' $_GET['name'] ' Email: ' $_GET['email'] ' Nachricht: \n\n' $_GET['nachricht'] );
-}
-?>
 
+require ("sqlConnect.php");
 
-<head>
-	<title> Formular - test </title>
-</head>
+$temp = $_POST;
 
-<body>
+$Name = $_POST ['Name'];
+$Vorname = $_POST['Vorname'];
+$PLZ = $_POST['PLZ'];
+$Email = $_POST['Email'];
+$Tierart = $_POST['Tierart'];
+$Vorstellungen = $_POST['Vorstellungen'];
+$Sonstiges = $_POST['Sonstiges'];
+
+$dbconnection = new mysqli($dbhost,$dbuser, $dbpass,$dbname) or die ("Verbindungsversuch fehlgeschlagen");
+
+echo "Die Datenbank-Verbindung hat geklappt";
+echo "<br>";
+
+mysql_select_db($dbname, $dbconnection) or die ("Konnte die Datenbank nicht wählen");
+
+$sql = "INSERT INTO Shooting (Name,Vorname,PLZ,Email,Tierart,Vorstellungen,Sonstiges) Values ($temp)";
+
+echo "Die Auswahl der Datenbank hat geklappt";
+echo "<br>";
+
 	
-	<h1> 
-	<?php
-	echo $_GET['name']
-	?>
-	</h1>
+	$eintrag = "INSERT INTO Shooting (Name,Vorname,PLZ,Email,Tierart,Vorstellungen,Sonstige Wünsche) Values ('$Name','$Vorname','$PLZ','$Email','$Tierart','$Vorstellungen','$Sonstiges')";
+	$eintrage = mysql_query($eintrag);
+	
+echo "Die Daten wurden eingetragen";
+echo "<br>";
+	
+	if($eintragen == true){
+		echo "Daten erfolgreich in die Datenbank eingetragen";
+	}
+	else {
+		echo "Fehler beim Eintragen in die Datenbank";
+	}
+	
+	
+	
+	
+	/* 
+	$Benutzername = $_POST['Benutzername'];
+	$Passwort = $_POST['Passwort'];
+	$Email = $_POST['Email'];
 
-	<h2> Kontakt-Formular</h2>
-		
-	<form action="formular.php">
-		<br>Vorname </br>
-		<input type = "text" name = "vorname" placeholder= "Name"> <!--name ist die ID -->
-		<input type="submit" value="Senden"><br>
-		
-		<br>
-		
-		<input type = "text" value="<?php echo $_GET['name']; ?>" name = "name" placeholder= "Name"><br>
-		<input type = "text" value="" name = "email" placeholder= "Email"><br>	
-		<input type = "text" value="" name = "betreff" placeholder= "Betreff"><br>
-		
-		 <!--textfeld wird mit textarea geöffnet und geschlossen, mit rows="10" zb kann man die Zeilen festlegen -->
-		 <!-- und mit cols="50" die breite des Textfeldes-->
-		<textarea name ="inhalt" placeholder ="Nachricht" rows="8" cols="40"  ></textarea>
-		
-		<br><input type="submit" value="Senden">
-		
-	</form>
-</body>
-</html>
+	$con = mysql_connect("mysql16.1blu.de","s117931_2131326","Jo96688968");
+	mysql_select_db("db117931x2131326", $con);
+	$eintrag = "INSERT INTO MusikQuiz (Benutzername, Passwort, Email) VALUES ('$Benutzername', '$Passwort', '$Email')";
+
+	mysql_query($eintrag, $con);
+	echo "Ihre Registrierung war erfolgreich, Sie werden in 5 Sekunden automatisch zu Ihrem Profil weitergeleitet" ;
+	 */
+?>

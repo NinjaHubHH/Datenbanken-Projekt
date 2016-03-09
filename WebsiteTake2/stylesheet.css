@@ -6,7 +6,7 @@ body {
 }
 
 #header {
-background-image: url('./horseEye.jpg');
+background-image: url('./horseEye.JPG');
 height:225px;
 width:1024;
 color: white;
@@ -59,10 +59,10 @@ color: white;
 
 #content {
 background:#dddddd;
-height: 516px;
+height: 480px;
 padding: 15px;
 width: 666px;
-opacity: 0.95;
+opacity: 0.90;
 position: relative;
 top: 133px;
 margin-left: auto;
@@ -81,7 +81,7 @@ position: relative;
 top: 133px;
 margin-left: auto;
 margin-right: auto;
-font-family: Bradley Hand, "Brush Script", fantasy;
+font-family: V, "Brush Script", fantasy;
 font-size: 22px;
 font-weight: bold;
 }
@@ -131,11 +131,11 @@ width: 100%;
     text-decoration: none;
 }
 
-#footer #leftlink {
+#footer #leftfooter {
 padding-left: 12px;
 }
 
-#footer #rightlink {
+#footer #rightfooter {
 text-align: right;
 padding-right: 12px;
 }

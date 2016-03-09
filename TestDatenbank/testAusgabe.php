@@ -1,5 +1,7 @@
 <?php
 	
-	echo "Hallo Welt";
+$vorname = $_POST['vorname'];
+
+echo $vorname;
 	
 ?>
