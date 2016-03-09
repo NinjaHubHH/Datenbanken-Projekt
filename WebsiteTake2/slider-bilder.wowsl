@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.6</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>24</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>Bilder.html</GalleryName>
+            <GallerySuffix>4</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>parallax</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>600</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>D:/Programme/WOW Slider/templates/backgnd/absent/</ImageTemplate>
+            <ImageTemplateName>Absent</ImageTemplateName>
+            <ImageWidth>800</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>true</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>D:/Uni HAW/4. Semester/RDB/bootstrap-3.3.5-dist/Bilder.html</PublishFileName>
+            <PublishIndex>Bilder.html</PublishIndex>
+            <PublishPath>D:/Uni HAW/4. Semester/RDB/bootstrap-3.3.5-dist</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>page</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>true</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>29</SlideshowDelay>
+            <SlideshowDuration>7</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>true</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#ffffff</TemplateColor>
+            <TemplateFont>Slabo 27px</TemplateFont>
+            <TemplateName>absent</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_8647n.jpg</url>
+                <title>IMG_8647n</title>
+                <filesize>7404897</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_3665nnhell.jpg</url>
+                <title>IMG_3665nnhell</title>
+                <filesize>1399597</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_4438n.jpg</url>
+                <title>IMG_4438n</title>
+                <filesize>1526761</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_5136n.jpg</url>
+                <title>IMG_5136n</title>
+                <filesize>12610510</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_5955_2.JPG</url>
+                <title>IMG_5955_2</title>
+                <filesize>1443636</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_6661.JPG</url>
+                <title>IMG_6661</title>
+                <filesize>2643452</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_6785n.jpg</url>
+                <title>IMG_6785n</title>
+                <filesize>7537133</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_7366n11.jpg</url>
+                <title>IMG_7366n11</title>
+                <filesize>13846860</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_8399n11.jpg</url>
+                <title>IMG_8399n11</title>
+                <filesize>6990981</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/IMG_1615_1.JPG</url>
+                <title>IMG_1615_1</title>
+                <filesize>1609927</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/IMG_1710_1cp.jpg</url>
+                <title>IMG_1710_1cp</title>
+                <filesize>1489470</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/IMG_1789n.jpg</url>
+                <title>IMG_1789n</title>
+                <filesize>2002947</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/IMG_1980n1cp.jpg</url>
+                <title>IMG_1980n1cp</title>
+                <filesize>1600695</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/IMG_2951n.jpg</url>
+                <title>IMG_2951n</title>
+                <filesize>3311063</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Miri Feld n3.JPG</url>
+                <title>Miri Feld n3</title>
+                <filesize>1074006</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/IMG_0861.JPG</url>
+                <title>IMG_0861</title>
+                <filesize>465890</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Only The Horses/IMG_2151n.jpg</url>
+                <title>IMG_2151n</title>
+                <filesize>1939242</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Only The Horses/IMG_2608n.jpg</url>
+                <title>IMG_2608n</title>
+                <filesize>1766450</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Only The Horses/IMG_2699n.jpg</url>
+                <title>IMG_2699n</title>
+                <filesize>1532423</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Only The Horses/IMG_2752n.jpg</url>
+                <title>IMG_2752n</title>
+                <filesize>1459333</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Only The Horses/IMG_3967n.jpg</url>
+                <title>IMG_3967n</title>
+                <filesize>2927071</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Only The Horses/IMG_0057n.JPG</url>
+                <title>IMG_0057n</title>
+                <filesize>1321202</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Only The Horses/IMG_0095.JPG</url>
+                <title>IMG_0095</title>
+                <filesize>782625</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Das Glück der Erde/Only The Horses/IMG_1544n.jpg</url>
+                <title>IMG_1544n</title>
+                <filesize>666306</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_5030n1.jpg</url>
+                <title>IMG_5030n1</title>
+                <filesize>10807734</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/IMG_5327n.jpg</url>
+                <title>IMG_5327n</title>
+                <filesize>5096576</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Herbst 2015/IMG_7526n1bright.jpg</url>
+                <title>IMG_7526n1bright</title>
+                <filesize>12002135</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Herbst 2015/IMG_8292n1-1.jpg</url>
+                <title>IMG_8292n1-1</title>
+                <filesize>4229664</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Kornfeldblumenblau/IMG_3541_2.JPG</url>
+                <title>IMG_3541_2</title>
+                <filesize>1599151</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Ninja/Desktop/♥ Photograhie ♥/Kornfeldblumenblau/IMG_3608nn - Kopie.jpg</url>
+                <title>IMG_3608nn - Kopie</title>
+                <filesize>1465840</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

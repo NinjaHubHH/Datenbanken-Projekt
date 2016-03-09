@@ -1,0 +1,144 @@
+body {
+	width:1024px;
+	font-family: cambria;
+	margin: 0px auto;
+	background-image: url('./Heide.jpg');
+}
+
+#header {
+background-image: url('./horseEye.jpg');
+height:225px;
+width:1024;
+color: white;
+opacity: 0.7;
+}
+
+#headline {
+position: relative;
+top: 40px;
+left: 40px;
+font-size: 60pt;
+font-family: Bradley Hand, "Brush Script", fantasy;
+}
+
+#page {
+color: 922323;
+height:676px;
+width:1024px;
+}
+
+#navigation {
+width:626px;
+height:21px;
+background:#dddddd;
+opacity: 0.38;
+position: relative;
+top: 40px;
+margin-left: auto;
+margin-right: auto;
+text-decoration: none;
+}
+
+
+#navigation a {
+	font-family: Bradley Hand, "Brush Script", fantasy;
+    color: Black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+color: white;
+}
+
+#navigation td {
+    padding-left: 50px;
+}
+
+#content {
+background:#dddddd;
+height: 516px;
+padding: 15px;
+width: 666px;
+opacity: 0.95;
+position: relative;
+top: 133px;
+margin-left: auto;
+margin-right: auto;
+font-family: Bradley Hand, "Brush Script", fantasy;
+font-size: 22px;
+font-weight: bold;
+}
+#contentGalerie {
+background:#dddddd;
+height: 516px;
+padding: 15px;
+width: 666px;
+opacity: 1.0px;
+position: relative;
+top: 133px;
+margin-left: auto;
+margin-right: auto;
+font-family: Bradley Hand, "Brush Script", fantasy;
+font-size: 22px;
+font-weight: bold;
+}
+#contentAbout {
+background:#dddddd;
+height: 816px;
+padding: 15px;
+width: 666px;
+opacity: 1.0px;
+position: relative;
+top: 133px;
+margin-left: auto;
+margin-right: auto;
+font-family: Bradley Hand, "Brush Script", fantasy;
+font-size: 20px;
+}
+#contentShootings {
+background:#dddddd;
+height: 620px;
+padding: 15px;
+width: 666px;
+opacity: 0.85;
+position: relative;
+top: 133px;
+margin-left: auto;
+margin-right: auto;
+font-family: Bradley Hand, "Brush Script", fantasy;
+font-size: 19px;
+font-weight: bold;
+}
+
+#footer {
+width:726px;
+height:21px;
+background:#dddddd;
+opacity: 0.5;
+position: relative;
+top: 173px;
+width: 100%;
+}
+
+#footer a {
+	color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footer #leftlink {
+padding-left: 12px;
+}
+
+#footer #rightlink {
+text-align: right;
+padding-right: 12px;
+}
+
+
+

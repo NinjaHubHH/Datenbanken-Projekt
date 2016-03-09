@@ -1,0 +1,44 @@
+<!DOCTYPE html >
+<html>
+<head>
+		<meta name="Fotografie" content="Bilder Tierbilder"/>
+		<meta charset="UTF-8"/>
+		<meta name ="author" content "Ninja R.">
+		<title>Ninja's Photography</title>
+		<link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="header">
+		<div id="headline">Ninja's Photography</div>
+	</div>
+
+		<div id="page">
+		
+				<table id="navigation">
+				<tr><td>
+					<a href="Home.html">Home</a></td><td>
+					<a href="Galerie.html">Galerie</a></td><td>
+					<a href="About.html">About</td><td>
+					<a href="Shootings.html">Shootings</a></td></tr>
+				</table>
+			
+					<div id="content">
+					
+
+					</div>
+			
+						<table id="footer">
+							<tr>
+								<td id="leftlink">
+									<a href="Kontakt.html">Kontakt</a>
+								</td>
+									
+								<td id="rightlink">
+									<a href="Impressum.html">Impressum</a>
+								</td>	
+							</tr>
+						</table>
+		</div>
+</body>
